@@ -1,5 +1,5 @@
 # OnlineShop
-This ia a side project done by chung1016 to practice web development using node.js and react.js. This application contain a server and client interface. The server is using node.js with express framework, while the UI of the application is using React.js with simple CSS.
+This is a side project done by chung1016 to practice web development using node.js and react.js. This application contain a server and client interface. The server is using node.js with express framework, while the UI of the application is using React.js with simple CSS.
 ## Server Design
 In the file of app.js, the request ends with '/' is redirected by the router productRouter. The server request follow RESTful style, which means:
   1.  All data communication is using JSON format
