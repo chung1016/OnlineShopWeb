@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  max-width: 80%;
+  margin: auto;
+  background-color: cadetblue;
+}
+
+.contents{
+  background-color: gray;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-padding{
+  padding-left: 10%;
+}
+
+.clickable{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*For header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom-style: outset;
+  background-color: #54b3d6;
+}
+
+.header-search, .AddingPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-cart-image{
+  height: 50px;
+  width: 50px;
+}
+
+.logout-corner{
+  padding-left: 25px;
+}
+
+/*For main Page */
+
+.main-page-img{
+  height: 100px;
+  width: 100px;
+}
+
+.ProductRow, .ProductPage{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductList {
+  display: inline;
+}
+
+.product {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 50px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.product:hover{
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+}
+
+.search-button{
+  height: 25px;
+  width: 25px;
+}
+
+.product-name, .name{
+  font-weight: bold;
+}
+
+.product-price{
+  font-style: italic;
+}
+
+/*For footer*/
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* For Product Page */
+
+.product-page-image{
+  height: 250px;
+  width: 250px;
+}
+
+.cart-page-image, .adding-page-image{
+  height: 250px;
+  width: 250px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+.middle{
+  text-align: center;
+}
+
+.checkOutbutton, .LoginButton, .input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
